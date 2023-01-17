@@ -56,6 +56,8 @@ header .container {
     background-repeat: no-repeat;
 }
 
+
+
 .quotes {
     margin-top: 200px;
     padding-bottom: 200px;
@@ -166,4 +168,23 @@ header .container {
     font-size: 12px;
     font-weight: bold;
     margin-top: 12px;
+}
+
+.background2 {
+    background: url(../img/Contact_photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Contact .titel span {
+    text-decoration: underline;
+}
+
+.contactForm {
+    display: flex;
+}
+
+.contactinput {
+    background-color: transparent;
+    border: 2px solid white;
 }

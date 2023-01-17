@@ -86,6 +86,23 @@
             </div>
         </div>
     </div>
-</body>
+    <div class="background2">
+        <div class="totalCont">
+            <div class="Contact">
+                <div class="titel">
+                    <p><span>CON</span>TACT</p>
+                </div>
+                <div>
+                    <form action="" class="contactForm">
+                        <label for="name">FULL NAME</label>
+                        <input class="contactinput" type="text" id="name" name="name">
 
+                        <label for="email">EMAIL</label>
+                        <input type="email" class="contactinput" name="email" id="email" name="email">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
