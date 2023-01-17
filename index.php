@@ -81,6 +81,9 @@
             echo file_get_contents("testimonial_citaat.txt");
             ?>
             </div>
+            <div class="signoff">
+                -Waler White
+            </div>
         </div>
     </div>
 </body>
