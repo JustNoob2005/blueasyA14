@@ -1,0 +1,161 @@
+*{
+    font-family: segoe UI;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    background-color: rgba(74, 84, 92, 0.9);
+    padding: 20px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    width: 50%;
+}
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.active {
+    color: #4bcaff;
+    border: 2px solid #4bcaff;
+    padding: 10px;
+}
+
+.navbar nav a {
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.navbar nav a:hover {
+    cursor: pointer;
+}
+.title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.background {
+    background: url(../img/Hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.quotes {
+    margin-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.quoteblock {
+    background-color: black;
+}
+
+.quotes p {
+    margin: 7px;
+}
+
+.quotes p {
+    background-color: rgba(74, 84, 92, 0.9);
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.services {
+    background-color: #4bcaff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.services .titel {
+    margin: 10px 0;
+}
+
+.services p span {
+    text-decoration: underline;
+}
+
+.totalCont {
+    width: 960px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.serviceCont {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.service {
+    padding-right: 20px;
+    padding-top: 25px;
+}
+
+.services .titel {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.serviceTitle {
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.serviceText {
+    font-size: 13px;
+}
+
+.testimonials {
+    width: 960px;
+    padding-top: 40px;
+}
+
+.testimonials h2 {
+    color: black;
+    font-size: 10px;
+    font-weight:lighter;
+    font-size: 20px;
+}
+
+.testimonials-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials .testimonials-header h2 span {
+    text-decoration: underline;
+    color: black;
+}
+
+.testimonials .container .testimonials-header .quote {
+    font-size: 40px;
+    color: black;
+}
+
+.phpcontent {
+    color: black;
+    margin-top: 20px;
+    font-family: segoe UI;
+    font-size: 25px;
+    font-weight: lighter;
+}
