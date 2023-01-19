@@ -40,28 +40,32 @@
                 <div class="service">
                     <img src="img/Icon_coffee.png" alt="no img available">
                     <p class="serviceTitle">COFFEE</p>
-                    <p class="serviceText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos accusantium molestiae
+                    <p class="serviceText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                        accusantium molestiae
                         tempore nulla ipsa, vitae atque reprehenderit. Veritatis odit eius, iure, totam animi atque, vel
                         illo deserunt odio maxime inventore.</p>
                 </div>
                 <div class="service">
                     <img src="img/Icon_instant.png" alt="no img available">
                     <p class="serviceTitle">INSTANT</p>
-                    <p class="serviceText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos accusantium molestiae
+                    <p class="serviceText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                        accusantium molestiae
                         tempore nulla ipsa, vitae atque reprehenderit. Veritatis odit eius, iure, totam animi atque, vel
                         illo deserunt odio maxime inventore.</p>
                 </div>
                 <div class="service">
                     <img src="img/Icon_serious.png" alt="no img available">
                     <p class="serviceTitle">SERIOUS</p>
-                    <p class="serviceText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos accusantium molestiae
+                    <p class="serviceText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                        accusantium molestiae
                         tempore nulla ipsa, vitae atque reprehenderit. Veritatis odit eius, iure, totam animi atque, vel
                         illo deserunt odio maxime inventore.</p>
                 </div>
                 <div class="service">
                     <img src="img/Icon_frame.png" alt="no img available">
                     <p class="serviceTitle">FRAME</p>
-                    <p class="serviceText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos accusantium molestiae
+                    <p class="serviceText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                        accusantium molestiae
                         tempore nulla ipsa, vitae atque reprehenderit. Veritatis odit eius, iure, totam animi atque, vel
                         illo deserunt odio maxime inventore.</p>
                 </div>
@@ -77,32 +81,44 @@
                 </div>
             </div>
             <div class="phpcontent">
-            <?php
-            echo file_get_contents("testimonial_citaat.txt");
-            ?>
+                <?php
+                echo file_get_contents("testimonial_citaat.txt");
+                ?>
             </div>
             <div class="signoff">
                 -Waler White
             </div>
         </div>
     </div>
-    <div class="background2">
+    <div class="ccbackground">
         <div class="totalCont">
             <div class="Contact">
                 <div class="titel">
-                    <p><span>CON</span>TACT</p>
+                    <p><span>CO</span>NTACT</p>
                 </div>
-                <div>
-                    <form action="" class="contactForm">
-                        <label for="name">FULL NAME</label>
-                        <input class="contactinput" type="text" id="name" name="name">
-
-                        <label for="email">EMAIL</label>
-                        <input type="email" class="contactinput" name="email" id="email" name="email">
-                    </form>
-                </div>
+                <form action="backend/contactform.php" method="post">
+                    <div class="contactform">
+                        <div class="contactinputs">
+                            <label for="fullname">FULL NAME</label>
+                            <input type="text" name="fullname">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email">
+                        </div>
+                        <div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum architecto nisi
+                            repudiandae, numquam excepturi eos id nobis quia ex facere voluptates natus dolorem labore
+                            esse cupiditate. Est ipsam illo facilis.</p>
+                        </div>  
+                    </div>
+                    <div class="textarea">
+                        <label for="message">MESSAGE</label>
+                        <textarea name="message" rows="10"></textarea>
+                        <input type="submit" class="sendbutton" value="MESSAGE">
+                    </div>
+                </form>
             </div>
         </div>
     </div>
 </body>
+
 </html>
