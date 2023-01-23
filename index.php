@@ -86,7 +86,7 @@
                 ?>
             </div>
             <div class="signoff">
-                -Waler White
+                -Walter White
             </div>
         </div>
     </div>
@@ -116,6 +116,16 @@
                         <input type="submit" class="sendbutton" value="MESSAGE">
                     </div>
                 </form>
+            </div>
+        </div>
+    </div>
+    <div class="basefooter">
+        <div class="totalCont">
+            <div class="footer">
+                <footer>
+                    <p>HOME | SERVICES | PORTFOLIO | CONTACT</p>
+                    <p>&copy; 2023</p>
+                </footer>
             </div>
         </div>
     </div>
